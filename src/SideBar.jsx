@@ -3,7 +3,7 @@ import { BsPlus, BsFillCloudLightningFill, BsGearFill } from 'react-icons/bs'
 
 const SideBar = () => {
   return (
-    <div className="fixed top-0 left-0 h-screen w-16 m-0 flex flex-col bg-gray-900 text-white shadow">
+    <div className="fixed top-0 left-0 m-0 flex h-screen w-16 flex-col bg-gray-900 text-white shadow">
       <SideBarIcon icon={<FaFire size="28" />} text={'fire'} />
       <Divider />
       <SideBarIcon icon={<BsPlus size="32" />} />
